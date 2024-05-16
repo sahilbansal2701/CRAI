@@ -1,7 +1,18 @@
 #include <unistd.h>
+#include <stdlib.h>
 
 void flag1() {
 	write(1, "\n\n[+] Congrats Hacked!\n", 23);
+	exit(0);
+}
+
+void randfailed() {
+	write(1, "\n\nFailed To Generate Random Value\n", 34);
+	exit(0);
+}
+
+void craifailed() {
+	write(1, "\n\nReturn Address Failed Integrity Check\n", 40);
 	exit(0);
 }
 
